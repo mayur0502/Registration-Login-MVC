@@ -1,4 +1,4 @@
-package com.mayurtech.controller;
+package com.test.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.mayurtech.Entity.User;
-import com.mayurtech.service.UserService;
+import com.test.Entity.User;
+import com.test.service.UserService;
 
 @Controller
 public class MainController {

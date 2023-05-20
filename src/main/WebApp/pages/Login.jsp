@@ -13,7 +13,7 @@
 }
 
 body {
-  background: #e35869;
+  background: #ffffe6;
   font-family: 'Rubik', sans-serif;
 }
 

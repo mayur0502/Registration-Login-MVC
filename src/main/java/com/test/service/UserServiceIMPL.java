@@ -1,10 +1,10 @@
-package com.mayurtech.service;
+package com.test.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.mayurtech.Entity.User;
-import com.mayurtech.dao.UserDao;
+import com.test.Entity.User;
+import com.test.dao.UserDao;
 
 @Service
 public class UserServiceIMPL implements UserService {

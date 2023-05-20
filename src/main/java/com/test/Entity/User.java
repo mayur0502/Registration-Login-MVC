@@ -1,4 +1,4 @@
-package com.mayurtech.Entity;
+package com.test.Entity;
 
 import java.util.UUID;
 

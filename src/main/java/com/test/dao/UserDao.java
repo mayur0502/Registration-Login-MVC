@@ -1,6 +1,6 @@
-package com.mayurtech.dao;
+package com.test.dao;
 
-import com.mayurtech.Entity.User;
+import com.test.Entity.User;
 
 public interface UserDao {
 

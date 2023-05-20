@@ -8,11 +8,11 @@
 		<version>2.7.8</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.Exam</groupId>
+	<groupId>com.test</groupId>
 	<artifactId>OnlineExam</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MayurTechnology</name>
-	<description>Mayur Technology Online website</description>
+	<name>TestApplication</name>
+	<description>Test Application</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

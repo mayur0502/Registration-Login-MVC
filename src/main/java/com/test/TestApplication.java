@@ -1,15 +1,15 @@
-package com.mayurtech;
+package com.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MayurTechnologyApplication {
+public class TestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MayurTechnologyApplication.class, args);
+		SpringApplication.run(TestApplication.class, args);
 
-		System.out.println("Welcome to Mayur technology");
+		System.out.println("Welcome to Test Application");
 	}
 
 }

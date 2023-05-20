@@ -1,6 +1,6 @@
-package com.mayurtech.service;
+package com.test.service;
 
-import com.mayurtech.Entity.User;
+import com.test.Entity.User;
 
 public interface UserService {
 

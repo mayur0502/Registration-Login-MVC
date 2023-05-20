@@ -1,11 +1,11 @@
-package com.mayurtech.dao;
+package com.test.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.mayurtech.Entity.User;
+import com.test.Entity.User;
 
 @Repository
 public class UserDaoIMPL implements UserDao {
