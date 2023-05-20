@@ -34,7 +34,7 @@ table.inner{
 <h3>STUDENT REGISTRATION FORM</h3>
 
 <div style="text-align:center">
-
+<p>${message}</p>
 <a style="text-align:center" href="/Login">If your already register</a>
 </div><br>
 

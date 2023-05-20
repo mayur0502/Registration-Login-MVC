@@ -14,8 +14,8 @@ public class UserDaoIMPL implements UserDao {
 	SessionFactory sessionFactory;
 	
 	@Override
-	public String addFeedBack(User registration) {
-		// TODO Auto-generated method stub
+	public String userRegistration(User registration) {
+
 		Session session = sessionFactory.openSession();
 		session.save(registration);
 		session.beginTransaction().commit();
@@ -24,6 +24,7 @@ public class UserDaoIMPL implements UserDao {
 
 	@Override
 	public User userLogin(String email, String password) {
+
 		User user = null;
 		Session session= null;
 		try {
@@ -37,8 +38,6 @@ public class UserDaoIMPL implements UserDao {
 				session.close();
 			}
 		}
-		
 		return user;	
 	}
-
 }

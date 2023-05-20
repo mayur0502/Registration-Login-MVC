@@ -26,24 +26,5 @@ public class NavigationController {
 	public String login(HttpServletRequest request) {
 		
 		return "Login";
-	}
-	
-	@GetMapping("/Achievements")
-	public String achivements(HttpServletRequest request) {
-		
-		return "Achievements";
-	}
-	
-	@GetMapping("/Services")
-	public String Services(HttpServletRequest request) {
-		
-		return "Services";
-	}
-	@GetMapping("/Contact")
-	public String Contact(HttpServletRequest request) {
-		
-		return "Contact";
-	}
-
-	
+	}		
 	}

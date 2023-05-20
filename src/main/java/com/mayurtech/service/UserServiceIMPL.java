@@ -14,25 +14,26 @@ public class UserServiceIMPL implements UserService {
 	
 	@Override
 	public String UserRegistration(User registration) {
-		// TODO Auto-generated method stub
-		String result = userDao.addFeedBack(registration);
+
+		String result = userDao.userRegistration(registration);
 		
 		return result;
 	}
 
 	@Override
 	public String userLogin(String email, String password) {
-		// TODO Auto-generated method stub
+		
 		String msg="";
 		User userLogin = userDao.userLogin(email,password);
-		if(userLogin.getEmail().equals(email)) {
+		
+		if(userLogin != null) {
 			if(userLogin.getPassword().equals(password)) {
 				msg="Login succesful";
 			}else {
 				msg = "invalid Password";
 			}
 		}else {
-		msg="Invalid username";
+			msg="Invalid Credentitals";
 		}
 		return msg;
 	}

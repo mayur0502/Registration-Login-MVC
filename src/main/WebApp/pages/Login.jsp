@@ -118,12 +118,14 @@ body {
 </head>
 <body>
 <!-- partial:index.partial.html -->
-	<h4><span style="color: green">${success}</span></h4>
+     
 <div class="login-form">
 
 
 	<form action="userLogin" method="post">
+                    <p>${message}</p>
     <h1>Login</h1>
+    
     <div class="content">
       <div class="input-field">
         <input type="email" name ="Email"placeholder="Email" autocomplete="nope">
@@ -136,6 +138,7 @@ body {
       <button>Sign in</button>
     </div>
   </form><br>
+
 	<a href="/Registration">click here for registration</a>
 
   </div>

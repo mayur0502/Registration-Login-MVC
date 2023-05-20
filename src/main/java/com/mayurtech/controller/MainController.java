@@ -23,31 +23,23 @@ public class MainController {
 
 	@PostMapping("userRegistration")
 	public ModelAndView UserRegistration(User  registration,HttpServletRequest request) throws Exception{
-		
 	
-		userService.UserRegistration(registration);
+		String msg=userService.UserRegistration(registration);
 		
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("Registration");
+		modelAndView.addObject("message", msg);
 		return modelAndView;
-		
-	
-	
+	}
 
-}
 	@PostMapping("userLogin")
 	public ModelAndView userLogin(@RequestParam String Email,@RequestParam String Password,HttpServletRequest request) throws Exception{
-		
 
 		String msg= userService.userLogin(Email,Password);
-		System.out.println(msg);
+		
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("Login");
-//		modelAndView.set\\\
+		modelAndView.addObject("message", msg);
 		return modelAndView;
-		
-	
-	
-
-}
 	}
+}
